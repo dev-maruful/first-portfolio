@@ -8,7 +8,47 @@
 header{
     height: 100vh;
     width: 100%;
-    color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-image: url(/images/crop1-removebg-preview\ \(1\).png)
-    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
 }

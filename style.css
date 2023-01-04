@@ -10,8 +10,9 @@ header{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-    background-image: url(/images/crop1-removebg-preview\ \(1\).png)
+    background-image: url(/images/crop4-remove.png)
 }
 
 nav{
@@ -66,4 +67,60 @@ nav ul li a:hover{
 
 .btn:hover{
     transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+
+.content h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.content h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:#f9004d;
+    color: white;
+    box-shadow: 0 0 5px #000, 0 0 15px #858585;
+    top: 6px;
+    right: 6px;
+    font-weight: bold;
 }

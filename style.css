@@ -4,3 +4,11 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+
+header{
+    height: 100vh;
+    width: 100%;
+    color: red;
+    background-image: url(/images/crop1-removebg-preview\ \(1\).png)
+    
+}

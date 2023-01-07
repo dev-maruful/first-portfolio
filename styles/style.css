@@ -12,7 +12,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-image: url(./images/bg2.WEBP)
+    background-image: url(../images/bg2.webp)
 }
 nav{
     display: flex;
